@@ -3,3 +3,4 @@ pysilero-vad
 webrtc-noise-gain
 pyring-buffer
 onnxruntime
+numpy==2.0.2
