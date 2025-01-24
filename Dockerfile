@@ -4,7 +4,7 @@ ENV LANG C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
-    apt-get install --yes --no-install-recommends alsa-utils libgfortran5 libopenblas0-pthread
+    apt-get install --yes --no-install-recommends alsa-utils libgfortran5 libatlas3-base
 
 WORKDIR /app
 
