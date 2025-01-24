@@ -23,6 +23,7 @@ subprocess.check_call(pip + ["install", "--upgrade", "pip"])
 subprocess.check_call(pip + ["install", "--upgrade", "setuptools", "wheel"])
 
 # Install requirements
+subprocess.check_call(pip + ["wheel", "https://www.piwheels.org/simple/numpy/numpy-2.0.2-cp39-cp39-linux_armv7l.whl#sha256=27740e75344b7522f6be4c3d694775369524f12e3b31327a3642a35f5b416db8"])
 subprocess.check_call(
     pip
     + [
