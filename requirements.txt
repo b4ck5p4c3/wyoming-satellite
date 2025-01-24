@@ -1,4 +1,5 @@
 wyoming
 pysilero-vad
-webrtc-noise-gain==1
-pyring-buffer==1
+webrtc-noise-gain
+pyring-buffer
+onnxruntime
