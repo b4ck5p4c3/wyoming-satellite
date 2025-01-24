@@ -1,6 +1,5 @@
 wyoming
-pysilero-vad
+pysilero-vad==1.0.0
 webrtc-noise-gain
 pyring-buffer
 onnxruntime
-numpy==2.0.2
